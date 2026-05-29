@@ -105,3 +105,38 @@ npm run dev
 ```
 
 ### 4. Open
+
+---
+
+## Project Structure
+
+task-tracker/
+├── client/
+│   └── src/
+│       ├── api/          # Axios instance with JWT interceptor
+│       ├── context/      # Auth context
+│       ├── components/   # Navbar, Timer, TaskCard, TaskModal
+│       └── pages/        # Login, Dashboard, Summary
+└── server/
+├── controllers/      # Route logic
+├── middleware/        # JWT auth middleware
+├── models/            # User, Task, TimeLog schemas
+├── routes/            # API routes
+└── utils/             # Time formatter helper
+
+## Screenshots
+
+### Login Page
+<img width="1906" alt="Login Page" src="https://github.com/user-attachments/assets/8217664a-9d5b-4ce1-94bf-f5daccb30af8" />
+
+### Dashboard — Task List
+<img width="1879" alt="Dashboard" src="https://github.com/user-attachments/assets/47a414c5-131f-4754-bae8-4ef34c9b6b20" />
+
+### Task Management
+<img width="1898" alt="Task Management" src="https://github.com/user-attachments/assets/3bdb6003-5ada-4f36-9e1a-5f77d3abd153" />
+
+### Daily Summary
+<img width="1807" alt="Daily Summary" src="https://github.com/user-attachments/assets/099ff511-456d-4c8c-9ec3-40aa6da0b611" />
+
+
+
